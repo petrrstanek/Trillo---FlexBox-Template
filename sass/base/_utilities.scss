@@ -1,0 +1,26 @@
+%bg__prop {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+%btn-header {
+  height: 100%;
+  width: 100%;
+  padding: 2rem;
+  border: 0;
+  outline: none;
+  background-color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+
+  &:hover {
+    background-color: $grey-light-3;
+  }
+}
+
+%avatar-images {
+  height: 4rem;
+  border-radius: 100%;
+}
